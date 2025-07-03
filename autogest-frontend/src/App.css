@@ -1,0 +1,38 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Poppins", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.App {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1d3557;
+}
+
+/* Estilo do input de busca */
+input[type="text"] {
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #1d3557;
+}
