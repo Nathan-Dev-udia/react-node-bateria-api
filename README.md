@@ -2,7 +2,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Este é um projeto completo com **frontend em React.js** e **backend em Node.js + Express**, que fornece uma **API REST** para consulta de baterias automotivas.
 
