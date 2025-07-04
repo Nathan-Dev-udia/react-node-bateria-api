@@ -33,7 +33,7 @@ Embora tenha arquitetura diferente — focada em uma API REST com Node.js e um f
 
 ## 📷 Demonstração
 
-### 🔍 Tela de busca por veículo
+### 🔍 Back e Front em atividade simultânea
 <img src="./printtela.png" alt="Tela de busca por carro" width="600"/>
 
 ### 🎞️ Funcionamento geral da aplicação
