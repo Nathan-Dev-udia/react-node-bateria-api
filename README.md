@@ -104,6 +104,7 @@ Filtra carros com base no nome, marca ou amperagem (case-insensitive).
 Este projeto foi desenvolvido como um caso de estudo, com o objetivo principal de entender a criação de uma API utilizando Node.js e Express, além de testar uma integração básica com React no frontend. Atualmente, o banco de dados não possui uma quantidade tão volumosa de veículos.
 
 Futuramente, planejo expandir a API para torná-la mais completa e robusta, incluindo um catálogo maior de carros, melhorias nos filtros e outras funcionalidades para facilitar demandas reais de mercado.
+
 ---
 
 > Desenvolvido por Nathan Fernandes Alves
