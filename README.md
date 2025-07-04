@@ -1,6 +1,12 @@
 # 🔋 Consulta de Baterias para Veículos — Fullstack (React + Node.js)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Este é um projeto completo com **frontend em React.js** e **backend em Node.js + Express**, utilizando **SQLite** como banco de dados. Ele fornece informações detalhadas sobre baterias recomendadas para veículos de acordo com marca, modelo e características técnicas.
+Este é um projeto completo com **frontend em React.js** e **backend em Node.js + Express**, que fornece uma **API REST** para consulta de baterias automotivas.
+
+O backend utiliza um banco de dados **SQLite** local para armazenar as informações de veículos e baterias, e expõe esses dados ao frontend por meio de endpoints RESTful em formato JSON.
 
 Ideal para uso em oficinas, autocenters e sistemas internos de recomendação de baterias.
 
@@ -10,10 +16,11 @@ Ideal para uso em oficinas, autocenters e sistemas internos de recomendação de
 
 Este projeto é uma evolução e complemento dos sistemas que desenvolvi anteriormente: **[Bateria Fácil](https://github.com/Nathan-Dev-udia/BateriaFacil)** e **[AutoGest](https://github.com/Nathan-Dev-udia/AutoGest)**.
 
-Embora tenha arquitetura diferente — focada em API REST com Node.js e frontend React — compartilha conceitos e tem o objetivo de oferecer uma solução mais moderna e escalável para consulta e recomendação de baterias em oficinas e autocenters.
+Embora tenha arquitetura diferente — focada em uma API REST com Node.js e um frontend React — compartilha conceitos e tem o objetivo de oferecer uma solução mais moderna e escalável para consulta e recomendação de baterias em oficinas e autocenters.
+
+💡 Vale ressaltar que o frontend ainda é simples e funcional, desenvolvido com foco em testar a comunicação com a API. Tenho plena consciência de que há espaço para melhorias visuais e de usabilidade — e já considero isso como próximo passo para evoluir ainda mais este projeto.
 
 ---
-
 
 ## 📦 Funcionalidades
 
@@ -25,28 +32,81 @@ Embora tenha arquitetura diferente — focada em API REST com Node.js e frontend
 
 ---
 
+## 📷 Demonstração
+
+### 🔍 Tela de busca por veículo
+![Print da busca por carro](./autogest-frontend/public/print1.png)
+
+### 📋 Lista de resultados com dados técnicos
+![Print da lista de resultados](./autogest-frontend/public/print2.png)
+
+### 🎞️ Funcionamento geral da aplicação
+![GIF da aplicação em uso](./autogest-frontend/public/demo.gif)
+
+---
+
 ## 🚀 Como executar o projeto
 
-### 🔧 Backend (API - Node.js)
+Antes de começar, certifique-se de ter o **Node.js** instalado em sua máquina.  
+Você pode baixá-lo aqui: [https://nodejs.org/pt/download](https://nodejs.org/pt/download)
 
+Caso o VS Code não reconheça o Node nos comandos (`node`, `npm`, etc), execute no terminal:
+
+```powershell
+$env:Path += ";C:\Program Files\nodejs"
+```
+### 🔧 Backend (API - Node.js)
 1. Acesse a pasta do backend:
-   ```bash
-   cd autogest-api
+```
+- cd autogest-api
+```
 2. Instale as dependências:
-- npm install;
+```
+npm install
+```
 3. Inicie o servidor:
-  node index.js
+```
+node index.js
+```
 A API estará disponível em: http://localhost:3001
 
 ### 💻 Frontend (Interface - React)
 1. Acesse a pasta do frontend:
-   cd autogest-frontend
+```
+cd autogest-frontend
+```
 2. Instale as dependencias:
-- React;
+```
+npm install
+```
 3. Inicie o projeto React:
-  npm start
+```
+npm start
+```
 O frontend estará disponível em: http://localhost:3000
-(O back e o front devem estar online simultaneamente. Ele se comunica automaticamente com o backend na porta 3001)
+*Obs: O frontend se comunica automaticamente com a API rodando na porta 3001, portanto é necessário deixar o backend ativo.*
+
+### 📦 Criação do projeto (passos iniciais)
+Caso você queira reproduzir esse projeto do zero:
+
+Backend (API - Node.js + Express + SQLite)
+```
+mkdir autogest-api
+cd autogest-api
+npm init -y
+npm install express sqlite3 cors
+```
+Frontend (React)
+```
+npx create-react-app autogest-frontend
+```
+
+### 🧩 Extensões recomendadas para o VS Code
+ES7+ React/Redux/React-Native snippets;
+Prettier - Code formatter;
+ESLint;
+npm Intellisense;
+Essas extensões ajudam com formatação, sugestões de código e boas práticas durante o desenvolvimento.
 
 ---
 ## 📂 Estrutura do Projeto
