@@ -34,10 +34,10 @@ Embora tenha arquitetura diferente — focada em uma API REST com Node.js e um f
 ## 📷 Demonstração
 
 ### 🔍 Tela de busca por veículo
-<img src="./printtela.png" alt="Tela de busca por carro" width="300"/>
+<img src="./printtela.png" alt="Tela de busca por carro" width="600"/>
 
 ### 🎞️ Funcionamento geral da aplicação
-<img src="./apresentacaomenor.gif" alt="Demonstração da aplicação em uso" width="600"/>
+<img src="./apresentacaomenor.gif" alt="Demonstração da aplicação em uso" width="800"/>
 
 ---
 
