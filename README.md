@@ -102,6 +102,7 @@ npx create-react-app autogest-frontend
 - Prettier - Code formatter;
 - ESLint;
 - npm Intellisense.␣␣
+
 Essas extensões ajudam com formatação, sugestões de código e boas práticas durante o desenvolvimento.
 
 ---
