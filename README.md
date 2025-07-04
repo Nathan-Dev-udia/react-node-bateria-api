@@ -54,7 +54,7 @@ $env:Path += ";C:\Program Files\nodejs"
 ### 🔧 Backend (API - Node.js)
 1. Acesse a pasta do backend:
 ```
-- cd autogest-api
+cd autogest-api
 ```
 2. Instale as dependências:
 ```
