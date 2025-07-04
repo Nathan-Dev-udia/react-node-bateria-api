@@ -34,13 +34,10 @@ Embora tenha arquitetura diferente — focada em uma API REST com Node.js e um f
 ## 📷 Demonstração
 
 ### 🔍 Tela de busca por veículo
-![Print da busca por carro](./autogest-frontend/public/print1.png)
-
-### 📋 Lista de resultados com dados técnicos
-![Print da lista de resultados](./autogest-frontend/public/print2.png)
+<img src="./printtela.png" alt="Tela de busca por carro" width="300"/>
 
 ### 🎞️ Funcionamento geral da aplicação
-![GIF da aplicação em uso](./autogest-frontend/public/demo.gif)
+<img src="./apresentacaomenor.gif" alt="Demonstração da aplicação em uso" width="600"/>
 
 ---
 
