@@ -98,10 +98,10 @@ npx create-react-app autogest-frontend
 ```
 
 ### 🧩 Extensões recomendadas para o VS Code
--ES7+ React/Redux/React-Native snippets;
--Prettier - Code formatter;
--ESLint;
--npm Intellisense;
+- ES7+ React/Redux/React-Native snippets;
+- Prettier - Code formatter;
+- ESLint;
+- npm Intellisense;
 Essas extensões ajudam com formatação, sugestões de código e boas práticas durante o desenvolvimento.
 
 ---
