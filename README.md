@@ -8,7 +8,7 @@ Ideal para uso em oficinas, autocenters e sistemas internos de recomendação de
 
 ⚙️ **Contexto do Projeto**
 
-Este projeto é uma evolução e complemento dos sistemas que desenvolvi anteriormente, como **[Bateria Fácil](https://github.com/Nathan-Dev-udia/BateriaFacil)** e **[AutoGest](https://github.com/Nathan-Dev-udia/AutoGest)**.
+Este projeto é uma evolução e complemento dos sistemas que desenvolvi anteriormente: **[Bateria Fácil](https://github.com/Nathan-Dev-udia/BateriaFacil)** e **[AutoGest](https://github.com/Nathan-Dev-udia/AutoGest)**.
 
 Embora tenha arquitetura diferente — focada em API REST com Node.js e frontend React — compartilha conceitos e tem o objetivo de oferecer uma solução mais moderna e escalável para consulta e recomendação de baterias em oficinas e autocenters.
 
