@@ -18,12 +18,13 @@ A API ficará disponível em http://localhost:3001
 
 ---
 ## 📂 Estrutura do Projeto
-
+```
 autogest-api/
 ├── index.js          # Arquivo principal da API
 ├── database.db       # Banco SQLite com dados de carros e baterias
 ├── routes/           # Rotas da aplicação
 └── ...
+```
 ---
 
 ## 🧪 Endpoints
